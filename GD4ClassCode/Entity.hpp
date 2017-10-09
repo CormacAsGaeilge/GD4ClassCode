@@ -1,6 +1,6 @@
 #pragma once
-
-class Entity {
+#include "SceneNode.hpp"
+class Entity : SceneNode {
 private:
 	sf::Vector2f mVelocity;
 
